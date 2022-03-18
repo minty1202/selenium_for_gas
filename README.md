@@ -12,8 +12,9 @@ bundle exec ruby process.rb
 `AccessSpreadSheet`の`initialize`にある
 
 ```ruby
-@image_id_column
-@image_column
+@session.spreadsheet_by_key(ENV['SHEET_ID']).worksheets[1] # シート番号何枚目か(0が一枚目)
+@image_id_column # image_id のある列 A列が1
+@image_column # image のある列 A列が1
 ```
 
 が取得と出力に関係しています。  
