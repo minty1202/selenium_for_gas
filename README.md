@@ -2,7 +2,7 @@
 
 ```bash
 bundle install --path vendor/bundle
-bundle exec ruby access_spread_sheet.rb
+bundle exec ruby process.rb
 ```
 
 ## 設定方法
@@ -36,4 +36,4 @@ bundle exec ruby test_access_spred_sheet.rb
 
 を実行してください。  
 1行目の内容を表示てくれます。  
-基本的にはそこの列を基準に取得と出力をします。  
+基本的にはそこの列を基準に取得と出力をします。
